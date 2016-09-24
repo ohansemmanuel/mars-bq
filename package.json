@@ -2,6 +2,10 @@
   "name": "mars-bq",
   "version": "1.0.0",
   "description": "Barbeque party in Mars :-)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ohansemmanuel/mars-bq.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,5 +18,10 @@
   "license": "ISC",
   "dependencies": {
     "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "gulp": "^3.9.1",
+    "stream-handbook": "^1.0.0"
   }
 }
